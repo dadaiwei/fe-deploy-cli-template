@@ -4,7 +4,7 @@ module.exports = {
   projectName: '', // 项目名称
   dev: { // 测试环境
     name: '测试环境',
-    script: "npm run build-dev", // 测试环境打包脚本
+    script: "npm run build", // 测试环境打包脚本
     host: '', // 开发服务器地址
     port: 22, // ssh port，一般默认22
     username: '', // 登录服务器用户名
