@@ -5,7 +5,7 @@ module.exports = {
   dev: { // 测试环境
     name: '测试环境',
     script: "npm run build", // 测试环境打包脚本
-    host: '', // 开发服务器地址
+    host: '', // 测试服务器地址
     port: 22, // ssh port，一般默认22
     username: '', // 登录服务器用户名
     password: '', // 登录服务器密码
@@ -15,7 +15,7 @@ module.exports = {
   prod: {  // 线上环境
     name: '线上环境',
     script: "npm run build", // 线上环境打包脚本
-    host: '', // 开发服务器地址
+    host: '', // 线上服务器地址
     port: 22, // ssh port，一般默认22
     username: '', // 登录服务器用户名
     password: '', // 登录服务器密码
